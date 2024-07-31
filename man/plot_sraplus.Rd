@@ -10,7 +10,8 @@ plot_sraplus(
   years = NA,
   plotvars = c("b_div_bmsy", "c_div_msy", "depletion", "u_div_umsy"),
   kobe = FALSE,
-  max_kobe_val = 4
+  max_kobe_val = 4,
+  traditional_kobe = FALSE
 )
 }
 \arguments{
@@ -25,6 +26,8 @@ plot_sraplus(
 \item{kobe}{FALSE to return ribbons plot. TRUE to plot a Kobe plot}
 
 \item{max_kobe_val}{the max value for the x and y axes of the Kobe plot}
+
+\item{traditional_kobe}{Boolean argument. If TRUE, plots the traditional Kobe plot using the traffic light color scheme (not colorblind-friendly).}
 }
 \value{
 a ggplot object

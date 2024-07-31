@@ -14,8 +14,8 @@ fit_tmb(
   getsd = TRUE,
   control = list(eval.max = 10000, iter.max = 10000, trace = 1),
   bias.correct = FALSE,
-  bias.correct.control = list(sd = FALSE, split = NULL, nsplit = NULL, vars_to_correct
-    = NULL),
+  bias.correct.control = list(sd = FALSE, split = NULL, nsplit = NULL, vars_to_correct =
+    NULL),
   savedir = NULL,
   loopnum = 2,
   newtonsteps = 0,
